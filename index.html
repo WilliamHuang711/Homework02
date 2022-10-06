@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Homework_02</title>
+	<link rel="stylesheet" href="assets\style.css" />
+	<!-- link to Bulma css -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+
+<body>
+	<nav class="navbar is-white has-shadow">
+		<!-- logo and names -->
+		<div class="navbar-brand">
+		  <a class="navbar-item">
+			<img src="assets\icon.jpg" onClick="window.location.reload();" style="max-height: 95px">
+			<p class="subtitle has-text-grey-dark py-4 px-3"> WILLIAM HUANG</p>
+		  </a>
+		</div>
+
+
+		<!-- nav bar item -->
+		  <div class="navbar-end">
+
+			<a href="#aboutme" class="navbar-item">
+				About Me
+			</a>
+		
+			  <a href="#contact" class="navbar-item">
+				Contact
+			  </a>
+
+			<a href="#work" class="navbar-item">
+				Works
+			</a>
+
+			<a href="https://www.linkedin.com/in/wenfeng-huang-14369323a/" class="navbar-item" id="resume">
+				Resume
+			</a>
+
+		  </div>
+	  </nav>
+
+	  
+
+	<!--about me section-->
+<section class="section">
+	<div class="container">
+		<div class="columns is-vcentered">
+
+			<div class="column is-4">
+				<h1 class="title is-size-2 has-text-grey-dark" >About Me</h1>
+				<p class="is-size-6 has-text-grey-dark">Hi! My name is William Huang, I am a cartographer; a part-time hair colorist; and currently styduing in web development.</p>
+			</div>
+			<div class="column is-4 has-text-centered "> 
+				<img src="assets\personal.jpg" class="px-6" id="aboutme">
+			</div>
+			<div class="column is-4">
+				<h1 class="title is-size-4 has-text-grey-dark" id="contact">Contact Me</h1>
+				<ul class="has-text-grey-dark">
+					<li>Phone: 555-555-5555</li>
+					<li>Email: wenfenghuang07@berkeley.edu</li>
+					<li>Github: https://github.com/WilliamHuang711</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+	
+</section>
+
+
+<!-- works review section -->
+
+<section class="section">
+	<div class="container">
+		<div class="columns is-vcentered">
+			<div class="column is-2">
+				<h1 class="title is-size-2 has-text-grey-dark" id="work">My Works</h1>
+			</div>
+
+			<div class="column is-6">
+				<a href="https://da-mike.github.io/Bar-Hopper/">
+					<div style="max-height: 400px">
+						<img id="grow" src="assets\alex-boyd-HA0Rgl-ISko-unsplash.jpg" >
+					</div></a>
+			</div>
+
+			<div class="column is-4 px-5">
+				<h1 class="title is-size-4 has-text-grey-dark has-text-centered">Bar Hopper (Team Project)</h1>
+				<p class="has-text-grey-dark">
+					Bar Hopper is here to help any bar hopper plan a night out. 
+					Whether it be an unfamiliar city, or you just don't feel like thinking about it, 
+					Bar Hopper will help you identify bars, create a route, and take you back to your home (or hotel).</p>
+			</div>
+
+
+		</div>
+	</div>
+</section>
+
+
+<footer class="footer">
+	<div class="content has-text-centered mt-2">
+		<p is-size-3>Copyright 2022 William Huang</p>
+	</div>
+</footer>
+
+
+
+
+  <script src="index.js"></script>
+
+    
+</body>
+</html>
